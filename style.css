@@ -1,0 +1,105 @@
+/* global resetting */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+/* nav section */
+
+nav{
+    height: 75px;
+    background-color: rgb(0, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.logo,.menu{
+    height: 75px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* form section */
+
+.form-holder{
+    height: 90vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form{
+    width: 350px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+.form-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.form-items label{
+    margin-bottom: 5px;
+}
+
+.form-items input{
+    width: 80%;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    width: 80%;
+    border: none;
+    background-color: rgba(0, 255 , 255, 0.711);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    transition: all;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.gender>div{
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
